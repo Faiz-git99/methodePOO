@@ -46,7 +46,7 @@ this.reculer = function(){
 // créer un nouvel objet voiture1
 // on va utiliser le mot clé "new"
 let voiture1 = new Voiture("rouge", "carré", "grande");
-// accède à la couleur de l'objet voiture1
+// accède à l'objet voiture1
 console.log(voiture1);
 voiture1.demarrer();
 
@@ -101,7 +101,7 @@ this.reciter = function(){
 };
 };
 
-// Faire l'exercice après avoir créer l'objet utilisateur
+// Faire l'exercice après avoir créer constructeur d'objet utilisateur
 // utilisateur 1 
 let utilisateur1 = new utilisateur("MOUSSA", "Niakhaté", "12/02/2002", "Monaco", 23);
 console.log(utilisateur1);
