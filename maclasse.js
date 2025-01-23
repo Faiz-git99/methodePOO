@@ -9,7 +9,7 @@ constructor(titre, nombrePage, auteur){
     this.nombrePage = nombrePage;
     this.auteur = auteur;
 };
-// méthode description de la calsse Document
+// méthode description de la classe Document
 description(){
     console.log("Le titre du document est :", this.titre);
     console.log("L'auteur est", this.auteur);
@@ -32,7 +32,7 @@ console.log(documentCSS);
 documentCSS.description();
 
 // troisième objet concessionné avec "class"
-let documentJavaScript = new Document("Introduction au JavaScript (JS)", 50, "M. Nkoukoud");
+let documentJavaScript = new Document("Introduction au JavaScript (JS)", 50, "Monsieur Nkoukoud");
 // accéder au fonct° constructor et la méthode description
 console.log(documentJavaScript);
 documentJavaScript.description();
